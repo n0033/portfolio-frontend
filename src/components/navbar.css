@@ -1,0 +1,109 @@
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 29, 41);
+    box-shadow: 1px 1px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    z-index: 10;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+ul.horizontal li {
+    float: left;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px;
+}
+
+ul.horizontal li a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    opacity: 1.0;
+}
+
+
+/* .navbar ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.9);
+    position: relative;
+}
+
+
+.navbar ul li a:after {
+    position: absolute;
+    content: "";
+    left:0;
+    bottom: -4px;
+    width: 0;
+    height: 15%;
+    background: rgb(255, 255, 255, 0.8);
+    transition: all .3s ease;
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+} */
+
+.github-icon {
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    opacity: 0.8;
+    top: -4px;
+    transition: 0.5s;
+}
+
+.github-icon:hover {
+    opacity: 1.0;
+}
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
+}
+.lock:hover .icon-lock {
+    display: inline;
+}
+
+.underline {
+    border-bottom: solid white;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        justify-content: center;
+    }
+    ul.horizontal li {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .navbar {
+        justify-content: center;
+    }
+    ul.horizontal li {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}

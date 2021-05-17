@@ -1,0 +1,8 @@
+.ball-grid-pulse > div {
+    background-color: black
+  }
+
+  .loader-inner {
+    transform: scale(2, 2);
+  }
+

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.444039d9.chunk.css",
+    "main.js": "/static/js/main.16dfc28e.chunk.js",
+    "main.js.map": "/static/js/main.16dfc28e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6dd633fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6dd633fa.js.map",
+    "static/css/2.e8820f86.chunk.css": "/static/css/2.e8820f86.chunk.css",
+    "static/js/2.9e3316c8.chunk.js": "/static/js/2.9e3316c8.chunk.js",
+    "static/js/2.9e3316c8.chunk.js.map": "/static/js/2.9e3316c8.chunk.js.map",
+    "static/js/3.330efb5f.chunk.js": "/static/js/3.330efb5f.chunk.js",
+    "static/js/3.330efb5f.chunk.js.map": "/static/js/3.330efb5f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e8820f86.chunk.css.map": "/static/css/2.e8820f86.chunk.css.map",
+    "static/css/main.444039d9.chunk.css.map": "/static/css/main.444039d9.chunk.css.map",
+    "static/js/2.9e3316c8.chunk.js.LICENSE.txt": "/static/js/2.9e3316c8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Gotham Book.e37cf599.otf",
+    "static/media/css.6ba7587a.png": "/static/media/css.6ba7587a.png",
+    "static/media/django.ec7963d1.png": "/static/media/django.ec7963d1.png",
+    "static/media/drf.9e49d6d3.png": "/static/media/drf.9e49d6d3.png",
+    "static/media/html.3dd4d57d.png": "/static/media/html.3dd4d57d.png",
+    "static/media/js.b6eb8e5a.png": "/static/media/js.b6eb8e5a.png",
+    "static/media/python.e6711cff.png": "/static/media/python.e6711cff.png",
+    "static/media/react.e7924aad.png": "/static/media/react.e7924aad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6dd633fa.js",
+    "static/css/2.e8820f86.chunk.css",
+    "static/js/2.9e3316c8.chunk.js",
+    "static/css/main.444039d9.chunk.css",
+    "static/js/main.16dfc28e.chunk.js"
+  ]
+}

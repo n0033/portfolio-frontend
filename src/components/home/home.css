@@ -1,0 +1,30 @@
+.flex-center {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 50px);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.item {
+    color: rgb(206, 206, 206);
+    letter-spacing: 0.15em;
+}
+
+.welcome-text{
+    font-size: 8em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+@media screen and (max-width: 480px) {
+    .welcome-text{
+        font-size: 5em;
+    }
+  }
